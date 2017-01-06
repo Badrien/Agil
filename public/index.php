@@ -19,5 +19,8 @@ ob_start();
 if ($p === 'home') {
   require '../pages/home.php';
 }
+if ($p === 'pitch') {
+  require '../pages/pitch.php';
+}
 $content = ob_get_clean();
 require '../pages/templates/default.php';
