@@ -1,8 +1,10 @@
 <ul>
-  <?php foreach ($db->query('SELECT * FROM t_offers') as $offer) { ?>
-
-    <li><?php echo $offer->title; ?></li>
-    <p><?php echo $offer->content; ?></p>
-    <?php var_dump(DateTime); ?>
+  <?php foreach ($db->query('SELECT * FROM t_offers', 'App\Offer') as $offer) { ?>
+    <div class="">
+        <a href=<?php echo $offer->getUrl(); ?>>
+          <h3><?php echo $offer->getTitle(); ?></h3>
+          <time><?php echo $offer->getDate_publication(); ?></time> 
+        </a>
+    </div>
   <?php } ?>
 </ul>

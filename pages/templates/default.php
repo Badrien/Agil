@@ -19,7 +19,7 @@
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <a href="#"class="navbar-brand">Page Name</a>
+        <a href="index.php?p=home"class="navbar-brand">Page Name</a>
       </div>
     </nav>
     <div class="container">
