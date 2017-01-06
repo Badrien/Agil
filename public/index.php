@@ -19,7 +19,7 @@ ob_start();
 if ($p === 'home') {
   require '../pages/home.php';
 }
-<<<<<<< HEAD
+
 if ($p === 'pitch') {
   require '../pages/pitch.php';
 }
