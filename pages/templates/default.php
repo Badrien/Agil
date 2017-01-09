@@ -9,13 +9,17 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Agil</title>
 
     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../public/css/style.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+
   </head>
 
-  <body>
+  <body class="corp">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
