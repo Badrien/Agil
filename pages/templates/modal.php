@@ -5,7 +5,7 @@
         <h4>Postuler pour une offre :</h4>
       </div>
         <div class="modal-body">
-          <form action="index.html" method="post" enctype="multipart/form-data">
+          <form action="index.php?p=pitch" method="post" enctype="multipart/form-data">
             <div class="row">
               <div class="col-lg-6">
                 <div class="form-group">
