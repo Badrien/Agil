@@ -1,0 +1,49 @@
+.corps
+{
+  background-color: rgb(233,233,233);
+}
+
+#menu
+{
+  background-color: #FFFFFF;
+  color: rgb (15,16,22);
+}
+
+section
+{
+  margin-top: 100px;
+  border: 1px solid black;
+  border-radius: 6px;
+  line-height: 50px;
+}
+
+.col-md-12
+{
+  border: 1px solid black;
+  border-radius: 6px;
+  line-height: 50px;
+}
+
+.col-md-4
+{
+  border: 1px solid black;
+  border-radius: 6px;
+  line-height: 50px;
+  background-color: white;
+}
+
+#resultats
+{
+  border: 1px solid black;
+  border-radius: 6px;
+  line-height: 50px;
+  background-color: #44494B;
+  color: white;
+}
+
+.contenu
+{
+  border: 1px solid black;
+  line-height: 50px;
+  background-color: #F2F2F2;
+}
