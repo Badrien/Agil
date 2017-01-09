@@ -6,10 +6,12 @@
     </div>
     <div class="col-sm-offset-1 col-sm-10 contour">
       <div class="row">
-        <video autoplay="true" id="video" height="500" width="540"></video>
+        <div class="col-sm-offset-2 col-sm-10">
+          <video autoplay="true" id="video" height="500" width="540"></video>
+        </div>
       </div>
       <div class="row">
-        <div class="col-sm-offset-4 col-sm-2">
+        <div class="col-sm-offset-5 col-sm-2">
           <a href="#" id="capture" class="video-capture-button">Record</a>
         </div>
       </div>
@@ -36,7 +38,7 @@ function failed(error) {
 
 if (navigator.getUserMedia) {
 
-  navigator.getUserMedia({video: true, audio: true}, success, failed);
+  navigator.getUserMedia({video: true, audio: false}, success, failed);
 
 } else {
   alert('getUserMedia() is not supported in your browser');
