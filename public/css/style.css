@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .corps
 {
   background-color: rgb(233,233,233);
@@ -79,6 +80,9 @@ section
 /*Video*/
 #container-video
 {
+=======
+#container-video {
+>>>>>>> origin/master
     background-color: #ddd;
     margin: 0 auto;
     border: 10px #ccc solid;
@@ -86,23 +90,19 @@ section
     margin: -20 px 0;
 }
 
-#video
-{
+#video{
   position: center;
 }
 
-.loader
-{
+.loader{
   height: 100%;
 }
 
-.contour
-{
+.contour{
   border: solid 2px black;
 }
 
-.video-capture-button
-{
+.video-capture-button{
   display: block;
   margin: 20px 0;
   padding: 10px 20px;
@@ -114,21 +114,17 @@ section
 
 }
 
-.progress-bar
-{
+.progress-bar {
   box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
 }
 
-.vertical
-{
+.vertical {
   display: inline-block;
   width: 50%;
   height: 400px;
   -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
   transform: rotate(-90deg);
 }
-
-.vertical
-{
+.vertical {
   box-shadow: inset 0px 4px 6px #ccc;
 }
