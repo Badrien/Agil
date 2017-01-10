@@ -8,7 +8,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
-    <link rel="stylesheet" href="../pages/css/style.css">
 
     <title>Agil</title>
     <!-- Bootstrap core CSS -->
@@ -36,27 +35,7 @@
     </nav>
 
     <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12"> <!-- Premier niveau avec 12 colonnes -->
-            <div class="row">
-              <div class="col-md-4"> RECHERCHE </div> <!-- Deuxiemme niveau avec 4 colonnes -->
-              <div id="resultats"class="col-md-offset-1 col-md-7"> RESULTATS <!-- Deuxiemme niveau avec 5 colonnes -->
-                <div class="row">
-
-                  <div class="col-md-5"></div>
-                  <div class="contenu">
-                      <?php echo $content; ?>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      </div><!-- /.container -->
+      <?php echo $content; ?>
     </section>
 
   </body>
