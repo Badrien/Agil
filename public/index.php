@@ -26,6 +26,7 @@ if ($p === 'pitch') {
 
 elseif ($p === 'details') {
   require '../pages/details.php';
+  require '../pages/templates/modal.php';
 }
 
 $content = ob_get_clean();

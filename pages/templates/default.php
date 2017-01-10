@@ -8,16 +8,27 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../pages/css/style.css">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Agility</title>
 
     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../public/css/style.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<<<<<<< HEAD
     <link href = "../public/css/style.css" rel = "stylesheet">
   </head>
 
   <body class="corps">
     <!-- <img src = "images/imgHeader.jpg" alt="header"/> -->
+=======
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+
+  </head>
+
+  <body class="corp">
+>>>>>>> refs/remotes/origin/master
 
     <nav class="navbar navbar-fixed-top">
       <div id="menu" class="container-fluid">
