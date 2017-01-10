@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="../pages/css/style.css">
 
     <title>Agil</title>
-<<<<<<< HEAD
->>>>>>> refs/remotes/origin/master
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="../public/css/style.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
