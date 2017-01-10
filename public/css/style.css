@@ -47,3 +47,59 @@ section
   line-height: 50px;
   background-color: #F2F2F2;
 }
+
+#container-video
+{
+    background-color: #ddd;
+    margin: 0 auto;
+    border: 10px #ccc solid;
+    border-radius: 25px;
+    margin: -20 px 0;
+}
+
+#video
+{
+  position: center;
+}
+
+.loader
+{
+  height: 100%;
+}
+
+.contour
+{
+  border: solid 2px black;
+}
+
+.video-capture-button
+{
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.progress-bar
+{
+  box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
+}
+
+.vertical
+{
+  display: inline-block;
+  width: 50%;
+  height: 400px;
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+
+.vertical
+{
+  box-shadow: inset 0px 4px 6px #ccc;
+}
