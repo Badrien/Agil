@@ -22,6 +22,10 @@
   <body class="corps">
     <!-- <img src = "images/imgHeader.jpg" alt="header"/> -->
 
+  </head>
+
+  <body class="corps">
+
     <nav class="navbar navbar-fixed-top">
       <div id="menu" class="container-fluid">
         <a href="https://www.altenrecrute.fr/"class="navbar-brand"> Alten recrute</a>
