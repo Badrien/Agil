@@ -93,6 +93,6 @@ class Offer
 
     public function getUrl()
     {
-      return 'index.php?p=details&id='. $this->getId();
+      return 'index.php?p=home&id='. $this->getId();
     }
 }
