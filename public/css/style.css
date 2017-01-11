@@ -1,13 +1,16 @@
-<<<<<<< HEAD
 .corps
 {
   background-color: rgb(233,233,233);
 }
 
+.navbar-brand{
+  margin-right: 5%;
+}
+
 #menu
 {
-  background-color: #FFFFFF;
-  color: rgb (15,16,22);
+  background-color: white;
+  color: rgb(0, 0, 0);
 }
 
 section
@@ -80,9 +83,6 @@ section
 /*Video*/
 #container-video
 {
-=======
-#container-video {
->>>>>>> origin/master
     background-color: #ddd;
     margin: 0 auto;
     border: 10px #ccc solid;

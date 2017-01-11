@@ -7,7 +7,8 @@
           <div class="row">
             <div id="resultats" class="col-md-11">RESULTATS</div>
 
-  <?php foreach ($db->query('SELECT * FROM t_offers', 'App\Offer') as $offer)
+  <?php 
+  foreach ($db->query('SELECT * FROM t_offers', 'App\Offer') as $offer)
   { ?>
       <a id="linkoffer" href=<?php echo $offer->getUrl(); ?>>
         <div class="col-md-11">
