@@ -1,0 +1,234 @@
+.navigation
+{
+  min-height: 75px !important;
+}
+
+body
+{
+  background-image: url("../images/image-fond.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.corps
+{
+  background-image: url("../images/triangles.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.linknav
+{
+  padding-right: 50px !important;
+  padding-top: 20px !important;
+  color: black !important;
+}
+
+.linknav:hover
+{
+  color: #0080CB!important;
+}
+
+.altenrecrute
+{
+  padding-top: 20px !important;
+  padding-left: 40px !important;
+}
+
+.altenrecrute:hover
+{
+  opacity: 0.75 ;
+}
+
+section
+{
+  line-height: 50px;
+}
+
+.navbar-form
+{
+  margin-left: -30px !important;
+}
+
+.recherche
+{
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.lignerouge
+{
+  border-bottom: 2px solid #E00000;/*rouge*/
+  line-height: 0px;
+  margin-bottom: 2px;
+}
+
+.lignebleue
+{
+  border-bottom: 2px solid #0080CB;/*bleu*/
+  line-height: 0px;
+  margin-bottom: 2px;
+}
+
+.lignejaune
+{
+  border-bottom: 2px solid #FFEB00;/*jaune*/
+  line-height: 0px;
+}
+
+.lignes
+{
+  margin-top: 15px;
+}
+
+.resultats
+{
+  border: 2px solid #44494B;/*grey*/
+  border-radius: 6px;
+  line-height: 50px;
+  background-color: #44494B;/*grey*/
+  color: white;
+  margin-bottom: 10px;
+}
+
+.linkadd
+{
+  padding: 1px;
+  border-left: 3px solid white;
+  background-color: white;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 3px;
+  color: black;
+}
+
+.linkadd:hover
+{
+  padding: 1px;
+  border-left: 3px solid #FF0000;
+  background-color:  #E9E9E9;/*beige*/
+  margin-left: -15px;
+  margin-right: -15px;
+  text-decoration: none;
+}
+
+.annonces
+{
+  padding-left: 5%;
+}
+
+.dateannonce
+{
+  color: grey;
+}
+
+footer
+{
+  background-color: #44494B; /*grey*/
+  color: white;
+  padding-top: 3%;
+  margin-top: 5%;
+
+}
+
+.logofooter
+{
+  margin-top: 20px;
+}
+
+.logo-alten-blanc
+{
+  float: left;
+  margin-right: 40px;
+}
+
+.logo-alten-blanc:hover
+{
+  opacity: 0.75 ;
+}
+
+.alten
+{
+   line-height: 20px;
+   margin-left: 150px;
+   margin-top: 14px;
+}
+
+.networks
+{
+  list-style-type: none;
+}
+
+.linknetworks
+{
+  color: white;
+}
+
+.linknetworks:hover
+{
+  color: grey;
+  text-decoration: none;
+}
+
+.linknetworks:focus
+{
+  color: grey;
+  text-decoration: none;
+}
+
+.namesocialmedia
+{
+  margin-left: 30px;
+}
+
+
+/*Video*/
+#container-video
+{
+    background-color: #ddd;
+    margin: 0 auto;
+    border: 10px #ccc solid;
+    border-radius: 25px;
+    margin: -20 px 0;
+}
+
+#video{
+  position: center;
+}
+
+.loader{
+  height: 100%;
+}
+
+.contour{
+  border: solid 2px black;
+}
+
+.video-capture-button{
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.progress-bar {
+  box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
+}
+
+.vertical {
+  display: inline-block;
+  width: 50%;
+  height: 400px;
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+.vertical {
+  box-shadow: inset 0px 4px 6px #ccc;
+}
