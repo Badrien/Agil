@@ -96,3 +96,4 @@ class Offer
       return 'index.php?p=home&id='. $this->getId();
     }
 }
+?>

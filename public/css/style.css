@@ -117,9 +117,15 @@ section
 .annonces
 {
   padding-left: 5%;
+  color: grey;
 }
 
-.dateannonce
+.title-offers
+{
+  color: black;
+}
+
+.icon-offer
 {
   color: grey;
 }
@@ -183,6 +189,30 @@ footer
   margin-left: 30px;
 }
 
+.logo-viadeo
+{
+  margin-top: -4px;
+}
+
+
+.viadeo:hover
+{
+  opacity: 0.3;
+  color: white;
+  text-decoration: none;
+}
+
+.viadeo
+{
+  color: white;
+}
+
+.viadeo:focus
+{
+  opacity: 0.3;
+  color: white;
+  text-decoration: none;
+}
 
 /*Video*/
 #container-video

@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
   $('.modalBtn').click(function () {
     $('.modalForm').modal('show');
   });

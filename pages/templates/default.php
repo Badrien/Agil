@@ -43,7 +43,7 @@
           <div class="lignejaune"></div>
         </div>
       </nav>
-      
+
     <section>
       <?php echo $content; ?>
     </section>
@@ -89,8 +89,9 @@
                   </p>
 
                   <p>
-                    <a class="linknetworks viadeo" href="http://fr.viadeo.com/fr/company/alten" target="_blank">
-                    <i class="fa fa-viadeo" aria-hidden="true"></i><span class="namesocialmedia">Viadeo</span></a>
+                    <a class="viadeo" href="http://fr.viadeo.com/fr/company/alten" target="_blank">
+                    <!--<i class="fa fa-viadeo" aria-hidden="true"></i><span class="namesocialmedia">Viadeo</span></a>-->
+                    <img src="../public/images/viadeo.png" class="logo-viadeo" alt="logo Viadeo"><span class="namesocialmedia">Viadeo</span></a>
                   </p>
                 </p>
               </div>
