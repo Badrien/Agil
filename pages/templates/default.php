@@ -44,6 +44,17 @@
         </div>
       </nav>
 
+    <nav class="navbar navbar-fixed-top" height="50px">
+      <div id="menu" class="container-fluid">
+        <a href="index.php?p=home" class="navbar-brand"> <img src="./css/images/alten-logo.jpg" alt="" class="" width="110px" height="200%"> </a>
+        <a href="https://www.altenrecrute.fr/"class="navbar-brand"> Alten recrute</a>
+        <a href="https://www.altenrecrute.fr/blog-alten"class="navbar-brand"> Blog</a>
+        <a href="index.php?p=home"class="navbar-brand"> Accueil</a>
+        <a href="index.php?p=pitch"class="navbar-brand">Pitch</a>
+      </div>
+    </nav>
+
+
     <section>
       <?php echo $content; ?>
     </section>

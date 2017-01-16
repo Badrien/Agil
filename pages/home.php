@@ -16,6 +16,7 @@
           <div class="row">
             <div class="col-md-12 resultats"> RESULTATS</div>
 
+
   <?php   //$paire = ($i%2 == 0) ? true : false;
   foreach ($db->query('SELECT * FROM t_offers', 'App\Offer') as $offer)
   { ?>
@@ -30,9 +31,28 @@
         </div>
       </a>
   <?php } ?>
+
+            <?php foreach ($db->query('SELECT * FROM t_offers', 'App\Offer') as $offer)
+            { ?>
+              <a class="modalBtn" href="#" role="button">
+                <div class="col-md-11">
+                  <div id="linkadd">
+                    <h3 class="annonces"> <?php echo $offer->getTitle(); ?></h3>
+                    <time class="annonces"><?php echo $offer->getDate_publication(); ?></time>
+                  </div>
+                </div>
+            </a>
+            <?php require '../pages/details.php'; ?>
+      <?php } ?>
+
+
           </div>
         </div>
       </div>
     </div>
+
   </div>
 </div> <!-- /.container -->
+
+  </div><!-- /.container -->
+</div>
