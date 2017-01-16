@@ -12,7 +12,7 @@
 
     <title>Agil</title>
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="../pages/css/style.css" type="text/css">
+    <link rel="stylesheet" href="../public/css/style.css" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
@@ -26,7 +26,7 @@
     <nav class="navbar navbar-default navbar-fixed-top navigation">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a  class="navbar-brand altenrecrute" href="https://www.altenrecrute.fr" target="_blank"> <img src="../pages/images/altenrecrute.png" alt="img altenrecrute"></a>
+            <a  class="navbar-brand altenrecrute" href="https://www.altenrecrute.fr" target="_blank"> <img src="../public/images/altenrecrute.png" alt="img altenrecrute"></a>
           </div>
           <div>
             <ul class="nav navbar-nav navbar-right">
@@ -43,18 +43,7 @@
           <div class="lignejaune"></div>
         </div>
       </nav>
-
-    <nav class="navbar navbar-fixed-top" height="50px">
-      <div id="menu" class="container-fluid">
-        <a href="index.php?p=home" class="navbar-brand"> <img src="./css/images/alten-logo.jpg" alt="" class="" width="110px" height="200%"> </a>
-        <a href="https://www.altenrecrute.fr/"class="navbar-brand"> Alten recrute</a>
-        <a href="https://www.altenrecrute.fr/blog-alten"class="navbar-brand"> Blog</a>
-        <a href="index.php?p=home"class="navbar-brand"> Accueil</a>
-        <a href="index.php?p=pitch"class="navbar-brand">Pitch</a>
-      </div>
-    </nav>
-
-
+      
     <section>
       <?php echo $content; ?>
     </section>
@@ -65,7 +54,7 @@
           <div class="col-md-12 cadretotal"> <!-- Premier niveau avec 12 colonnes -->
             <div class="row">
               <div class="col-md-offset-1 col-md-5 logofooter">
-                <a href="http://www.alten.fr/" target="_blank"><img src="../pages/images/logo-alten-blanc.png" class="logo-alten-blanc" alt="logo Alten blanc"></a>
+                <a href="http://www.alten.fr/" target="_blank"><img src="../public/images/logo-alten-blanc.png" class="logo-alten-blanc" alt="logo Alten blanc"></a>
                 <p class="alten">ALTEN SA </br>
                 40 Avenue André Morizet </br>
                 92100 Boulogne Billancourt </br>
