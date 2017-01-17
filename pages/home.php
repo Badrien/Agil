@@ -4,13 +4,24 @@
       <div class="row">
         <div class="col-md-offset-2 col-md-8 recherche">
 
-          <form class="navbar-form inline-form">
+          <form class="inline-form form-group">
+            <div class="input-group">
               <input type="search" class="form-control" placeholder="Recherche...">
-              <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+              <!--<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>-->
+              <span class="input-group-btn">
+                <button class="btn btn-default form-control" type="submit">
+                  <span class="glyphicon glyphicon-search"></span>
+                </button>
+              </span>
+            </div>
           </form>
 
+
+
+
+
         </div>
-      </div> <!-- Deuxiemme niveau avec 4 colonnes -->
+      </div>
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
           <div class="row">
@@ -38,7 +49,7 @@
 
                 <div class="col-md-offset-1 col-md-2">
                   <i class="glyphicon glyphicon glyphicon-education icon-offer"></i>
-                  <sapn class="annonces"> <?php echo $offer->getintern_level(); ?></span>
+                  <span class="annonces"> <?php echo $offer->getintern_level(); ?></span>
                 </div>
               </div>
             </div>
