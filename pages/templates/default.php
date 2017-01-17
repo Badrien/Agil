@@ -34,6 +34,7 @@
               <li><a href="index.php?p=home"class="navbar-brand linknav"> Accueil</a></li>
               <li><a href="https://www.altenrecrute.fr/blog-alten" target="_blank" class="navbar-brand linknav"> Blog</a></li>
               <li><a href="index.php?p=pitch"class="navbar-brand linknav">Pitch</a></li>
+              <li><a href="index.php?p=connexion"class="navbar-brand linknav">Espace Admin</a></li>
             </ul>
 
           </div>

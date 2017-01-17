@@ -24,6 +24,14 @@ if ($p === 'pitch') {
   require '../pages/pitch.php';
 }
 
+if ($p === 'connexion') {
+  require '../pages/espace_admin/connexion.php';
+}
+
+if ($p === 'gerer') {
+  require '../pages/espace_admin/gerer.php';
+}
+
 elseif ($p === 'details') {
   require '../pages/details.php';
 }
