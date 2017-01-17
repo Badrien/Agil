@@ -1,81 +1,218 @@
+.navigation
+{
+  min-height: 75px !important;
+}
+
+body
+{
+  background-image: url("../images/image-fond.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
 .corps
 {
-  background-color: lavender;
+  background-image: url("../images/triangles.png");
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-.navbar-brand{
-  margin-right: 5%;
-}
-
-#menu
+.linknav
 {
-  background-color: white;
-  color: rgb(0, 0, 0);
+  padding-right: 50px !important;
+  padding-top: 20px !important;
+  color: black !important;
+}
+
+.linknav:hover
+{
+  color: #0080CB!important;
+}
+
+.altenrecrute
+{
+  padding-top: 20px !important;
+  padding-left: 40px !important;
+}
+
+.altenrecrute:hover
+{
+  opacity: 0.75 ;
 }
 
 section
 {
-  margin-top: 100px;
   line-height: 50px;
 }
 
-.col-md-12
+.navbar-form
 {
-  line-height: 50px;
+  margin-left: -30px !important;
 }
 
-#recherche
+.recherche
 {
-  border: 1px solid white;
-  border-radius: 6px;
-  line-height: 50px;
-  background-color: white;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
-#resultats
+.lignerouge
+{
+  border-bottom: 2px solid #E00000;/*rouge*/
+  line-height: 0px;
+  margin-bottom: 2px;
+}
+
+.lignebleue
+{
+  border-bottom: 2px solid #0080CB;/*bleu*/
+  line-height: 0px;
+  margin-bottom: 2px;
+}
+
+.lignejaune
+{
+  border-bottom: 2px solid #FFEB00;/*jaune*/
+  line-height: 0px;
+}
+
+.lignes
+{
+  margin-top: 15px;
+}
+
+.resultats
 {
   border-radius: 0px;
   line-height: 50px;
   background-color: #44494B;/*grey*/
   color: white;
+  margin-bottom: 10px;
 }
 
-#linkadd
+.linkadd
 {
-  color: cornflowerblue;
-  border: 1px solid white;
-  border-radius: 0px;
+  padding: 1px;
+  border-left: 3px solid white;
   background-color: white;
-  margin-top: 10px;
-
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 3px;
+  color: black;
 }
 
-#linkadd:hover
+.linkadd:hover
 {
-  transform: none;
-  border-radius: 0px;
-  text-align: inherit;
-  border-left-width: 2px;
-  border-left-color: red;
 
+  padding: 1px;
+  border-left: 3px solid #FF0000;
+  background-color:  #E9E9E9;/*beige*/
+  margin-left: -15px;
+  margin-right: -15px;
+  text-decoration: none;
 }
 
-.annonces{
+.annonces
+{
   padding-left: 5%;
+  color: grey;
+}
+
+.title-offers
+{
+  color: black;
+}
+
+.icon-offer
+{
+  color: grey;
+}
+
+footer
+{
+  background-color: #44494B; /*grey*/
+  color: white;
+  padding-top: 3%;
+  margin-top: 5%;
+
+}
+
+.logofooter
+{
+  margin-top: 20px;
+}
+
+.logo-alten-blanc
+{
+  float: left;
+  margin-right: 40px;
+}
+
+.logo-alten-blanc:hover
+{
+  opacity: 0.75 ;
+}
+
+.alten
+{
+   line-height: 20px;
+   margin-left: 150px;
+   margin-top: 14px;
+}
+
+.networks
+{
+  list-style-type: none;
+}
+
+.linknetworks
+{
+  color: white;
+}
+
+.linknetworks:hover
+{
+  color: grey;
   text-decoration: none;
 }
 
-#linkoffer
+.linknetworks:focus
 {
-  color: navy;
-}
-
-#linkoffer:hover
-{
+  color: grey;
   text-decoration: none;
-  color: navy;
 }
 
+.namesocialmedia
+{
+  margin-left: 30px;
+}
+
+.logo-viadeo
+{
+  margin-top: -4px;
+}
+
+
+.viadeo:hover
+{
+  opacity: 0.3;
+  color: white;
+  text-decoration: none;
+}
+
+.viadeo
+{
+  color: white;
+}
+
+.viadeo:focus
+{
+  opacity: 0.3;
+  color: white;
+  text-decoration: none;
+}
 
 /*Video*/
 #container-video
