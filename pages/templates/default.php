@@ -12,7 +12,8 @@
 
     <title>Agil</title>
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="../public/css/style.css" type="text/css">
+    <link rel="stylesheet" href="../public/css/style.css"  type="text/css">
+
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
@@ -33,7 +34,6 @@
               <li><a href="index.php?p=home"class="navbar-brand linknav"> Accueil</a></li>
               <li><a href="https://www.altenrecrute.fr/blog-alten" target="_blank" class="navbar-brand linknav"> Blog</a></li>
               <li><a href="index.php?p=pitch"class="navbar-brand linknav">Pitch</a></li>
-              <li><a href="index.php?p=connexion"class="navbar-brand linknav">Espace Admin</a></li>
             </ul>
 
           </div>
@@ -44,6 +44,7 @@
           <div class="lignejaune"></div>
         </div>
       </nav>
+
 
     <section>
       <?php echo $content; ?>

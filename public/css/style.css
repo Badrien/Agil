@@ -85,8 +85,7 @@ section
 
 .resultats
 {
-  border: 2px solid #44494B;/*grey*/
-  border-radius: 6px;
+  border-radius: 0px;
   line-height: 50px;
   background-color: #44494B;/*grey*/
   color: white;
@@ -106,6 +105,7 @@ section
 
 .linkadd:hover
 {
+
   padding: 1px;
   border-left: 3px solid #FF0000;
   background-color:  #E9E9E9;/*beige*/
@@ -214,30 +214,6 @@ footer
   text-decoration: none;
 }
 
-
-/*Espace admin*/
-.espace-admin
-{
-  text-align: center;
-  color: grey;
-}
-
-.se-connecter
-{
-  text-align: center;
-  align-items: center!important;
-  border: 2px solid #44494B;/*grey*/
-  border-radius: 6px;
-  line-height: 50px;
-  background-color: #44494B;/*grey*/
-  color: white;
-}
-
-.gerer
-{
-  margin-bottom: 10px;
-}
-
 /*Video*/
 #container-video
 {
@@ -285,4 +261,18 @@ footer
 }
 .vertical {
   box-shadow: inset 0px 4px 6px #ccc;
+}
+#modalBtnn{
+  border: solid 5px black;
+  text-decoration: none;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  padding: 10px;
 }

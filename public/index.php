@@ -28,13 +28,5 @@ elseif ($p === 'details') {
   require '../pages/details.php';
 }
 
-if ($p === 'connexion') {
-  require '../pages/espace_admin/connexion.php';
-}
-
-if ($p === 'gerer') {
-  require '../pages/espace_admin/gerer.php';
-}
-
 $content = ob_get_clean();
 require '../pages/templates/default.php';
