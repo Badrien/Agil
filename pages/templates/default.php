@@ -11,7 +11,7 @@
 
     <title>Agil</title>
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/style.css"  type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   </head>
 
@@ -28,7 +28,7 @@
 
     <nav class="navbar navbar-fixed-top" height="50px">
       <div id="menu" class="container-fluid">
-        <a href="index.php?p=home" class="navbar-brand"> <img src="./css/images/alten-logo.jpg" alt="" class=" width="110px" height="200%"> </a>
+        <a href="index.php?p=home" class="navbar-brand"> <img src="./css/images/alten-logo.jpg" alt="" class=" width="110px" height="150%"> </a>
         <a href="https://www.altenrecrute.fr/"class="navbar-brand"> Alten recrute</a>
         <a href="https://www.altenrecrute.fr/blog-alten"class="navbar-brand"> Blog</a>
         <a href="index.php?p=home"class="navbar-brand"> Accueil</a>

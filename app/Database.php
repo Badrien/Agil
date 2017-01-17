@@ -38,10 +38,10 @@
       return $data;
     }
 
-    public function prepare($statement,$attributes,$class_name,$one = false)
+    public function prepare($statement,$class_name,$one = false)
     {
       $req = $this->getPDO()->prepare($statement);
-      $req->execute($attributes);
+      $req->execute();
       $req->setFetchMode(PDO::FETCH_CLASS,$class_name);
 
       if ($one) {
