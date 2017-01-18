@@ -32,6 +32,18 @@ if ($p === 'gerer') {
   require '../pages/espace_admin/gerer.php';
 }
 
+if ($p === 'ajouter') {
+  require '../pages/espace_admin/ajouter.php';
+}
+
+if ($p === 'menu') {
+  require '../pages/espace_admin/menu.php';
+}
+
+if ($p === 'nouvelle-annonce') {
+  require '../pages/espace_admin/nouvelle-annonce.php';
+}
+
 elseif ($p === 'details') {
   require '../pages/details.php';
 }

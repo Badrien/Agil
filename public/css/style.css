@@ -114,11 +114,6 @@ section
   text-decoration: none;
 }
 
-.linkadd:focus
-{
-  text-decoration: none!important;
-}
-
 .annonces
 {
   padding-left: 5%;
@@ -230,7 +225,6 @@ footer
 {
   text-align: center;
   align-items: center!important;
-  border: 2px solid #44494B;/*grey*/
   border-radius: 6px;
   line-height: 50px;
   background-color: #44494B;/*grey*/
@@ -245,6 +239,28 @@ footer
 .btn-lg
 {
   border-radius: 25px!important;
+}
+
+.annonces-espace-admin
+{
+  margin-top: 15px;
+}
+
+.ajouter
+{
+  border-radius: 6px;
+  line-height: 50px;
+  background-color: #44494B;/*grey*/
+  color: white;
+}
+
+.form-add-offer
+{
+  border: 1px solid #CCC;/*lignt grey*/
+  border-radius: 6px;
+  background-color: white;
+  margin-top: 15px;
+
 }
 
 /*Video*/
