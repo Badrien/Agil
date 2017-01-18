@@ -24,8 +24,12 @@ if ($p === 'pitch') {
   require '../pages/pitch.php';
 }
 
-elseif ($p === 'details') {
-  require '../pages/details.php';
+if ($p === 'traitement') {
+  require '../pages/traitement.php';
+}
+
+elseif ($p === 'inscription') {
+  require '../pages/inscription.php';
 }
 
 $content = ob_get_clean();
