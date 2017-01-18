@@ -85,7 +85,7 @@ section
 
 .resultats
 {
-  border-radius: 0px;
+  border-radius: 6px;
   line-height: 50px;
   background-color: #44494B;/*grey*/
   color: white;
@@ -112,6 +112,11 @@ section
   margin-left: -15px;
   margin-right: -15px;
   text-decoration: none;
+}
+
+.linkadd:focus
+{
+  text-decoration: none!important;
 }
 
 .annonces
@@ -212,6 +217,34 @@ footer
   opacity: 0.3;
   color: white;
   text-decoration: none;
+}
+
+/*Espace admin*/
+.espace-admin
+{
+  text-align: center;
+  color: grey;
+}
+
+.se-connecter
+{
+  text-align: center;
+  align-items: center!important;
+  border: 2px solid #44494B;/*grey*/
+  border-radius: 6px;
+  line-height: 50px;
+  background-color: #44494B;/*grey*/
+  color: white;
+}
+
+.gerer
+{
+  margin-bottom: 10px;
+}
+
+.btn-lg
+{
+  border-radius: 25px!important;
 }
 
 /*Video*/

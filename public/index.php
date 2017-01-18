@@ -20,16 +20,28 @@ if ($p === 'home') {
   require '../pages/home.php';
 }
 
-if ($p === 'pitch') {
+elseif ($p === 'pitch') {
   require '../pages/pitch.php';
 }
 
-if ($p === 'traitement') {
+elseif ($p === 'traitement') {
   require '../pages/traitement.php';
 }
 
 elseif ($p === 'inscription') {
   require '../pages/inscription.php';
+
+elseif ($p === 'connexion') {
+  require '../pages/espace_admin/connexion.php';
+}
+
+elseif ($p === 'gerer') {
+  require '../pages/espace_admin/gerer.php';
+}
+
+elseif ($p === 'details') {
+  require '../pages/details.php';
+
 }
 
 $content = ob_get_clean();
