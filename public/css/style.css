@@ -114,6 +114,11 @@ section
   text-decoration: none;
 }
 
+.linkadd:focus
+{
+  text-decoration: none!important;
+}
+
 .annonces
 {
   padding-left: 5%;
@@ -237,6 +242,10 @@ footer
   margin-bottom: 10px;
 }
 
+.btn-lg
+{
+  border-radius: 25px!important;
+}
 
 /*Video*/
 #container-video
