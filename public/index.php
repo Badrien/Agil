@@ -19,29 +19,24 @@ ob_start();
 if ($p === 'home') {
   require '../pages/home.php';
 }
-
-elseif ($p === 'pitch') {
+if ($p === 'pitch') {
   require '../pages/pitch.php';
 }
 
-elseif ($p === 'traitement') {
+if ($p === 'traitement') {
   require '../pages/traitement.php';
 }
 
-elseif ($p === 'inscription') {
+if ($p === 'inscription') {
   require '../pages/inscription.php';
+}
 
-elseif ($p === 'connexion') {
+if ($p === 'connexion') {
   require '../pages/espace_admin/connexion.php';
 }
 
 elseif ($p === 'gerer') {
   require '../pages/espace_admin/gerer.php';
-}
-
-elseif ($p === 'details') {
-  require '../pages/details.php';
-
 }
 
 $content = ob_get_clean();
