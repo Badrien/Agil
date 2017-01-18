@@ -1,6 +1,6 @@
 $(document).ready(function () {
-            $('input[id="checkbox"]').click(function () {
-                var result = $('input[id="checkbox"]:checked');
+            $('input[id="annoncesbox"]').click(function () {
+                var result = $('input[id="annoncesbox"]:checked');
                 if ((result.length > 0 ) && (result.length < 2)) {
                     var resultString = result.length + " annonce sélectionnée<br/>";
                     $('.result').html(resultString);
