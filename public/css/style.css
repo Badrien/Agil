@@ -325,3 +325,33 @@ input[type=checkbox]
   -o-transform: scale(1.5); /* Opera */
   padding: 10px;
 }
+
+.form-registration{
+  color: white;
+  background-color: rgb(68, 73, 75);
+  border-radius: 10px;
+  padding-top: 5%;
+  padding-right: 4%;
+}
+
+.myButton {
+	background-color:#eae0c2;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
