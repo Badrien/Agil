@@ -1,7 +1,4 @@
-<?php
-$_SESSION['offers_selected'] = 0;
- ?>
- <div class="container">
+<div class="container">
   <div class="row">
     <div class="panel-heading">
       <div class="panel-title text-center">
@@ -28,7 +25,7 @@ $_SESSION['offers_selected'] = 0;
           </form>
 
         </div>
-      </div> <!-- Deuxiemme niveau avec 4 colonnes -->
+      </div>
       <div class="row">
         <div class="col-md-offset-1 col-md-10">
           <div class="row">
@@ -36,7 +33,7 @@ $_SESSION['offers_selected'] = 0;
             <div class="col-md-12 resultats"> RESULTATS</div>
 
 
-
+      <form action="index.php?p=inscription" method="post">
 
       <?php foreach ($db->query('SELECT * FROM t_offers', 'App\Offer') as $offer)
                   { ?>
@@ -67,24 +64,7 @@ $_SESSION['offers_selected'] = 0;
                       </div>
                     </a>
 
-                    <div class="col-md-1 text-center">
-                 <input type="checkbox" name=<?php echo "checkbox".$offer->getId();?> id="checkbox">
-                   </div>
-
-                  <!--Modal-->
-                  <div class="modal fade modalForm" role="dialog" id =<?php echo "modal". $offer->getId(); ?> tabindex="-1" aria-labelledby="modalFormLabel">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                           <button type="button" class="close" id="modalClose" aria-label="Close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-                          <h4>Postuler pour une offre :</h4>
-
-              <form action="index.php?p=inscription" method="post">
-
-                        </div>
-                      </a>
-
-                      <div class="col-md-1">
+                      <div class="col-md-1 text-center">
                    <input type="checkbox" name="annonces[]" value= <?php echo $offer->getId();?> id="annoncesbox">
                      </div>
 

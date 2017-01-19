@@ -39,7 +39,6 @@ elseif ($p === 'gerer') {
   require '../pages/espace_admin/gerer.php';
 }
 
-<<<<<<< HEAD
 if ($p === 'ajouter') {
   require '../pages/espace_admin/ajouter.php';
 }
@@ -56,7 +55,5 @@ elseif ($p === 'details') {
   require '../pages/details.php';
 }
 
-=======
->>>>>>> origin/master
 $content = ob_get_clean();
 require '../pages/templates/default.php';
