@@ -1,6 +1,6 @@
 <?php
-
- require '../app/Autoloader.php';
+  require '../pages/functions.php';
+  require '../app/Autoloader.php';
  App\Autoloader::register();
 
 /* var string $p
